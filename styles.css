@@ -1,5 +1,6 @@
 body {
     background-color: #70b5b5;
+    font-family: 'Arial', sans-serif
     
 }
 
@@ -8,14 +9,17 @@ p {
     font-size: 18px;
 }
 
+h1, h2, h3 {
+    text-align: center;
+    color: #26384b; /* Darker color for headings for better contrast */
+    margin-bottom: 15px;
+}
+
 h1 {
-    text-align: center;
+    font-size: 2.5em;
+    color: #1e2936
 }
 
-h2 {
-    text-align: center;
-}
-
-h3 {
-    text-align: center;
+h1, h2, h3, p {
+    margin-bottom: 20px;
 }
